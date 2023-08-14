@@ -1,8 +1,8 @@
-// obtener el numero mayor
+// obtener el mayor de 18 anios
 
-function numeroMayor (a, b){
-    if (a > b) {console.log(a)}
-    else {console.log(b)}
+function mayor18 (edad) {
+    if (edad >= 18) {return "es mayo de edad";}
+    else{console.log('es menor')} 
 }
 
-numeroMayor(44, 5)
+mayor18(3)
