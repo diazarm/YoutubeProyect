@@ -1,11 +1,15 @@
+// encontrar dentro del array un elemento y mostrar cuantas veces se repite
 
-let array = ['tito','pepe', 'pepito', 'tito', 'tota','tito'];
+let array = ['tito','pepe', 'pepito', 'tito', 'tota','tito', "tota"];
 
 function busqueda (elemento){
-   let busqueArray = []
-   for (let i=0; i<array.length; i++) {
-     if (array[i].includes(elemento)){busqueArray.push(elemento)}
-   }
-  return `la cant de veces que se repite ${elemento} es ${busqueArray.length}`
+  let cofre = [];
+  for (let i =0 ; i<array.length; i++){
+    if(array[i].includes(elemento)) {cofre.push(elemento)}
+  }
+  if (cofre.length > 0 ){console.log(`encontro a ${elemento} ${cofre.length} veces`)} 
+  else {console.log(`No se encontro ${elemento}`)}
+  
 }
-busqueda('tito')
+
+busqueda("tota")
