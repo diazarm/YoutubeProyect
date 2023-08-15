@@ -1,6 +1,6 @@
 // encontrar dentro del array un elemento y mostrar cuantas veces se repite
 
-let array = ['tito','pepe', 'pepito', 'tito', 'tota','tito'];
+let array = ['tito','pepe', 'pepito', 'tito', 'tota','titod'];
 
 function busqueda (elemento){
   let cofre = [];
